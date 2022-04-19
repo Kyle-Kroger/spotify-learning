@@ -1,5 +1,6 @@
 import NextImage from "next/image";
 import NextLink from "next/link";
+import { useEffect } from "react";
 
 import {
   Box,
@@ -7,7 +8,6 @@ import {
   ListItem,
   ListIcon,
   Divider,
-  Center,
   LinkBox,
   LinkOverlay,
 } from "@chakra-ui/layout";
@@ -57,6 +57,7 @@ const musicMenu = [
 
 const Sidebar = () => {
   const { playlists } = usePlaylist();
+
   return (
     <Box
       width="100%"

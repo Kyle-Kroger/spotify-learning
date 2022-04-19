@@ -5,7 +5,6 @@ import { AiOutlineClockCircle } from "react-icons/ai";
 import { formatDate, formatTime } from "../lib/formatters";
 
 const SongTable = ({ songs }) => {
-  console.log(songs);
   return (
     <Box bg="transparent">
       <Box padding="10px" marginBottom="20px">
