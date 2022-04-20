@@ -2,7 +2,7 @@ import { createStore, action } from "easy-peasy";
 
 export const store = createStore({
   activeSongs: [],
-  actionSong: null,
+  activeSong: null,
   changeActiveSongs: action((state: any, payload) => {
     state.activeSongs = payload;
   }),
