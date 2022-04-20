@@ -98,7 +98,7 @@ const Player = ({ songs, activeSong }) => {
             variant="link"
             aria-label="repeat"
             fontSize="24px"
-            color={shuffle ? "white" : "gray.600"}
+            color={repeat ? "white" : "gray.600"}
             onClick={onRepeat}
             icon={<MdOutlineRepeat />}
           />
